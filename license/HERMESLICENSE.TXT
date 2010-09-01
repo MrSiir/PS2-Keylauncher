@@ -1,0 +1,36 @@
+(C) 2003  Hermes/PS2REALITY (SPAIN) hermes@ps2reality.net
+
+You can make use free of these sources/binarys with these conditions :
+
+ a) not use it commercially and no promote commercial products, if it 
+ includes part or the totality of these sources/binarys 
+
+ b) you cannot modify the binarys (elf/irx/exe)
+
+ c) you must visualize in the your binary (or in your license) following 
+ informative text: "based partially on the work of Hermes/PS2REALITY"
+
+ d) this license only affects to the code property of Hermes/PS2REALITY.
+ 
+ 
+ e) Hermes/PS2REALITY is not responsible of any type of damage 
+   that causes the use of this code
+
+
+ 
+Usted puede hacer uso libre de estos fuentes/binarios con estas condiciones:
+   
+  a)  no usarlo comercialmente y no promocionar productos comerciales, si se
+  incluye parte o la totalidad de estos fuentes/binarios
+
+  b) usted no puede modificar los binarios (elf/irx/exe)
+
+  c) Debe visualizar en su binario (o en su licencia) el siguiente 
+  texto informativo: "basado parcialmente en el trabajo de Hermes/PS2REALITY"
+  
+  d) Esta licencia solo afecta al codigo propiedad de Hermes/PS2REALITY
+
+  e) Hermes/PS2REALITY no se hace responsable de los daños que pueda causar el
+     uso de este codigo
+ 
+ 

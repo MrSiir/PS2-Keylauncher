@@ -1,0 +1,48 @@
+PS2 KeyLauncher 0.5.3 (beta3)
+
+Me complace anunciar la beta3 del PS2 KeyLauncher 0.5, ha llovido mucho desde la beta2 y es que aunque suene a tópico, apenas tengo tiempo para programar fuera del trabajo, me paso el día entero programando pero no para la PS2 :-(
+
+Esta beta tiene tres grandes novedades, el resto son arreglos de fallos, casi todos en el Navegador!, paso a comentarlos:
+
+1.- Soporte de escritura (experimental) para dispositivos USB, gracias a Ole (Marek Olejnik) tenemos esta nueva característica que hará que podamos pasar los datos de la Memory Card al PC con nuestro USB, como he dicho es experimental pero a mi me funciona perfectamente, he probado con muchos ficheros, ficheros de varios megas y nunca me ha fallado, tengo el USB el FAT32, pero soporta FAT12, FAT16 y FAT32, ya he dicho por activa y por pasiva que el driver USB de Ole no funciona con todos los dispositivos, aquí tenéis una lista de los dispositivos soportados.
+
+2.- Soporte para extraer NPO a la Memory Card, a través del Navegador! (START-> Opción 4) podemos pasar "Saves" del USB a la Memory Card, como muchos ya sabéis, en el tema de los "Saves" no hay un estándar, pero tenemos el maravilloso "PS2 Save Builder (ps2sb)" con el que podemos pasar todos los "Saves" a NPO, ¿Cómo?, muy fácil, soporta: .pws, .max, .cbs, .psu, .npo, .spo, .sps, .md, .p2m, .xpo y .xps, casi nada :-), nos bajamos el programa de http://www.ps2savetools.com/download.php?op=viewdownloaddetails&lid=74&ttitle=PS2_Save_Builder, nos bajamos algunos "Saves" de http://www.gamefaqs.com o de http://www.cmgsccc.com/ps2/ sea en el formato que sea cogemos el ps2sb abrimos el fichero (yo me he bajado un "Save" del Devil May Cry 3 de gamefaqs) y hacemos "File->Save as" y en tipo ponemos "NPort (*.npo)" y le damos a "Guardar", cogemos el NPO lo metemos en el USB, arrancamos el KL, vamos al Navegador! (START->Opción 4) pulsamos R1 seleccionamos "USB Mass" y nos aparecerá el NPO con un icono azul, pulsamos sobre el fichero NPO y seleccionamos "Ejecutar" y listo, ya tenemos el "Save" en la Memory Card. Teóricamente se podría hacer también con CDs en lugar de con el USB, pero no lo he probado.
+
+3.- Soporte para copias de seguridad de PSOne, en versiones anteriores no funcionaba el lanzamiento de copias de seguridad a través de "OSDSYS" por que el método de ejecución de los "ELF" cambió, he añadido una quinta opción en el menú de opciones, si pulsamos START veremos que la opción 5 es para lanzar las copias de seguridad de PSOne.
+
+Y ya está bien de novedades, el resto son todo arreglos de fallos, paths, etc...
+
+Todo esto lo podéis encontrar en la Web del proyecto PS2 KeyLauncher en SourceForge.net:
+http://sourceforge.net/projects/ps2kl
+
+Quiero aprovechar este post para saludar:
+
+A Marek Olejnik (Ole) que sin el no tendríamos soporte USB, gracias Ole.
+A toda la gente que ha hecho posible el PS2SDK: Gustavo Scotti (csh), David Ryan (Oobles), Nicholas Van Veen (Sjeep), Pukko, Doug Knight (Karmix), adresd, Marcus R. Brown (mrbrown), loser, That Guy (TyRaNiD), Dan Peori (ooPo).
+A toda la gente de PS2Reality.Net
+A toda la gente de PS2NFO.com
+A toda la gente de ElOtroLado.Net
+A la gente de SourceForge.Net por dar soporte a programadores como yo.
+Y como no a Hermes, neofar y demás que me han ayudado, gracias a todos.
+
+Sin todos vosotros no tendríamos KL :-)
+
+También quiero aprovechar este post para arrojar cuatro números de lo que ha supuesto el KL para mí:
+
+- 770.000 accesos a siirlabs.com
+- 50 Gigabytes de datos transferidos en siirlabs.com
+- 60.000 descargas en siirlabs.com
+- 1.500 descargas en SF.NET
+- Más todas las descargas de foros como PS2NFO, etc...
+
+De momento esto es todo.
+Cualquier comentario será bien recibido.
+
+Saludos
+-- 
+MrSiir / SiirLabs
+http://ps2dev.siirlabs.com
+http://sourceforge.net/projects/ps2kl
+mrsiir@gmail.com
+
+
