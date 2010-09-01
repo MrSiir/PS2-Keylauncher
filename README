@@ -1,42 +1,42 @@
-PS2 KeyLauncher 0.5.3 (beta3)
+ÔªøPS2 KeyLauncher 0.5.3 (beta3)
 
-Me complace anunciar la beta3 del PS2 KeyLauncher 0.5, ha llovido mucho desde la beta2 y es que aunque suene a tÛpico, apenas tengo tiempo para programar fuera del trabajo, me paso el dÌa entero programando pero no para la PS2 :-(
+Me complace anunciar la beta3 del PS2 KeyLauncher 0.5, ha llovido mucho desde la beta2 y es que aunque suene a t√≥pico, apenas tengo tiempo para programar fuera del trabajo, me paso el d√≠a entero programando pero no para la PS2 :-(
 
 Esta beta tiene tres grandes novedades, el resto son arreglos de fallos, casi todos en el Navegador!, paso a comentarlos:
 
-1.- Soporte de escritura (experimental) para dispositivos USB, gracias a Ole (Marek Olejnik) tenemos esta nueva caracterÌstica que har· que podamos pasar los datos de la Memory Card al PC con nuestro USB, como he dicho es experimental pero a mi me funciona perfectamente, he probado con muchos ficheros, ficheros de varios megas y nunca me ha fallado, tengo el USB el FAT32, pero soporta FAT12, FAT16 y FAT32, ya he dicho por activa y por pasiva que el driver USB de Ole no funciona con todos los dispositivos, aquÌ tenÈis una lista de los dispositivos soportados.
+1.- Soporte de escritura (experimental) para dispositivos USB, gracias a Ole (Marek Olejnik) tenemos esta nueva caracter√≠stica que har√° que podamos pasar los datos de la Memory Card al PC con nuestro USB, como he dicho es experimental pero a mi me funciona perfectamente, he probado con muchos ficheros, ficheros de varios megas y nunca me ha fallado, tengo el USB el FAT32, pero soporta FAT12, FAT16 y FAT32, ya he dicho por activa y por pasiva que el driver USB de Ole no funciona con todos los dispositivos, aqu√≠ ten√©is una lista de los dispositivos soportados.
 
-2.- Soporte para extraer NPO a la Memory Card, a travÈs del Navegador! (START-> OpciÛn 4) podemos pasar "Saves" del USB a la Memory Card, como muchos ya sabÈis, en el tema de los "Saves" no hay un est·ndar, pero tenemos el maravilloso "PS2 Save Builder (ps2sb)" con el que podemos pasar todos los "Saves" a NPO, øCÛmo?, muy f·cil, soporta: .pws, .max, .cbs, .psu, .npo, .spo, .sps, .md, .p2m, .xpo y .xps, casi nada :-), nos bajamos el programa de http://www.ps2savetools.com/download.php?op=viewdownloaddetails&lid=74&ttitle=PS2_Save_Builder, nos bajamos algunos "Saves" de http://www.gamefaqs.com o de http://www.cmgsccc.com/ps2/ sea en el formato que sea cogemos el ps2sb abrimos el fichero (yo me he bajado un "Save" del Devil May Cry 3 de gamefaqs) y hacemos "File->Save as" y en tipo ponemos "NPort (*.npo)" y le damos a "Guardar", cogemos el NPO lo metemos en el USB, arrancamos el KL, vamos al Navegador! (START->OpciÛn 4) pulsamos R1 seleccionamos "USB Mass" y nos aparecer· el NPO con un icono azul, pulsamos sobre el fichero NPO y seleccionamos "Ejecutar" y listo, ya tenemos el "Save" en la Memory Card. TeÛricamente se podrÌa hacer tambiÈn con CDs en lugar de con el USB, pero no lo he probado.
+2.- Soporte para extraer NPO a la Memory Card, a trav√©s del Navegador! (START-> Opci√≥n 4) podemos pasar "Saves" del USB a la Memory Card, como muchos ya sab√©is, en el tema de los "Saves" no hay un est√°ndar, pero tenemos el maravilloso "PS2 Save Builder (ps2sb)" con el que podemos pasar todos los "Saves" a NPO, ¬øC√≥mo?, muy f√°cil, soporta: .pws, .max, .cbs, .psu, .npo, .spo, .sps, .md, .p2m, .xpo y .xps, casi nada :-), nos bajamos el programa de http://www.ps2savetools.com/download.php?op=viewdownloaddetails&lid=74&ttitle=PS2_Save_Builder, nos bajamos algunos "Saves" de http://www.gamefaqs.com o de http://www.cmgsccc.com/ps2/ sea en el formato que sea cogemos el ps2sb abrimos el fichero (yo me he bajado un "Save" del Devil May Cry 3 de gamefaqs) y hacemos "File->Save as" y en tipo ponemos "NPort (*.npo)" y le damos a "Guardar", cogemos el NPO lo metemos en el USB, arrancamos el KL, vamos al Navegador! (START->Opci√≥n 4) pulsamos R1 seleccionamos "USB Mass" y nos aparecer√° el NPO con un icono azul, pulsamos sobre el fichero NPO y seleccionamos "Ejecutar" y listo, ya tenemos el "Save" en la Memory Card. Te√≥ricamente se podr√≠a hacer tambi√©n con CDs en lugar de con el USB, pero no lo he probado.
 
-3.- Soporte para copias de seguridad de PSOne, en versiones anteriores no funcionaba el lanzamiento de copias de seguridad a travÈs de "OSDSYS" por que el mÈtodo de ejecuciÛn de los "ELF" cambiÛ, he aÒadido una quinta opciÛn en el men˙ de opciones, si pulsamos START veremos que la opciÛn 5 es para lanzar las copias de seguridad de PSOne.
+3.- Soporte para copias de seguridad de PSOne, en versiones anteriores no funcionaba el lanzamiento de copias de seguridad a trav√©s de "OSDSYS" por que el m√©todo de ejecuci√≥n de los "ELF" cambi√≥, he a√±adido una quinta opci√≥n en el men√∫ de opciones, si pulsamos START veremos que la opci√≥n 5 es para lanzar las copias de seguridad de PSOne.
 
-Y ya est· bien de novedades, el resto son todo arreglos de fallos, paths, etc...
+Y ya est√° bien de novedades, el resto son todo arreglos de fallos, paths, etc...
 
-Todo esto lo podÈis encontrar en la Web del proyecto PS2 KeyLauncher en SourceForge.net:
+Todo esto lo pod√©is encontrar en la Web del proyecto PS2 KeyLauncher en SourceForge.net:
 http://sourceforge.net/projects/ps2kl
 
 Quiero aprovechar este post para saludar:
 
-A Marek Olejnik (Ole) que sin el no tendrÌamos soporte USB, gracias Ole.
+A Marek Olejnik (Ole) que sin el no tendr√≠amos soporte USB, gracias Ole.
 A toda la gente que ha hecho posible el PS2SDK: Gustavo Scotti (csh), David Ryan (Oobles), Nicholas Van Veen (Sjeep), Pukko, Doug Knight (Karmix), adresd, Marcus R. Brown (mrbrown), loser, That Guy (TyRaNiD), Dan Peori (ooPo).
 A toda la gente de PS2Reality.Net
 A toda la gente de PS2NFO.com
 A toda la gente de ElOtroLado.Net
 A la gente de SourceForge.Net por dar soporte a programadores como yo.
-Y como no a Hermes, neofar y dem·s que me han ayudado, gracias a todos.
+Y como no a Hermes, neofar y dem√°s que me han ayudado, gracias a todos.
 
-Sin todos vosotros no tendrÌamos KL :-)
+Sin todos vosotros no tendr√≠amos KL :-)
 
-TambiÈn quiero aprovechar este post para arrojar cuatro n˙meros de lo que ha supuesto el KL para mÌ:
+Tambi√©n quiero aprovechar este post para arrojar cuatro n√∫meros de lo que ha supuesto el KL para m√≠:
 
 - 770.000 accesos a siirlabs.com
 - 50 Gigabytes de datos transferidos en siirlabs.com
 - 60.000 descargas en siirlabs.com
 - 1.500 descargas en SF.NET
-- M·s todas las descargas de foros como PS2NFO, etc...
+- M√°s todas las descargas de foros como PS2NFO, etc...
 
 De momento esto es todo.
-Cualquier comentario ser· bien recibido.
+Cualquier comentario ser√° bien recibido.
 
 Saludos
 -- 
